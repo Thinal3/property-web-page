@@ -108,7 +108,7 @@ const SearchForm = ({onSearch}) => {
 
                 <label className="Form-label">Postcode Area</label>
                 <Combobox
-                data={["BR1", "BR5", "BR6", "NW1", "SW3"]} 
+                data={["SW7 1RH", "BR5", "BR6", "W8 6NA", "SW3","SW11","SW20"]} 
                 value={postcode} 
                 onChange={val => setPostcode(val)} 
                 />
