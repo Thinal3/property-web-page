@@ -1,7 +1,8 @@
 
 import React, { useState } from "react";
-import { DropdownList, NumberPicker, DatePicker, Combobox } from "react-widgets";
-import './From.css';
+import { DropdownList, NumberPicker, Combobox } from "react-widgets";
+import './Form.css';
+import "react-widgets/styles.css";
 
 import data from './properties.json';
 
@@ -10,13 +11,11 @@ const SearchForm = ({onSearch}) => {
 
     const [type,setType]= useState("Any");        //for type of property
 
-    const [minPrice,setMinPrice]= useState(null); //for min price and max price of property
-    const [maxPrice,setMaxPrice]= useState(null);
+    const [minPrice,setMinPrice]= useState(); //for min price and max price of property
+    const [maxPrice,setMaxPrice]= useState();
 
-    const [minBed,setMinBed]= useState(null);     //for min bedroom and max bedroom of property
-    const [maxBed,setMaxBed]= useState(null); 
-
-    const [date, setDate]=useState(null);         //for add date of property
+    const [minBed,setMinBed]= useState();     //for min bedroom and max bedroom of property
+    const [maxBed,setMaxBed]= useState(); 
 
     const [postcode, setPostcode] = useState(""); //for postcode of property
 
@@ -33,13 +32,7 @@ const SearchForm = ({onSearch}) => {
 
             const postcodeMatch= !postcode || prop.postcode.toUpperCase().startsWith(postcode.toUpperCase());
 
-            let dateMatch = true;
-            if (date) {
-                const propDate = new Date(`${prop.added.month} ${prop.added.day}, ${prop.added.year}`);
-                dateMatch = propDate >= addedAfter;
-            }
-
-            return typeMatch && priceMatch && bedMatch && postcodeMatch && dateMatch;
+            return typeMatch && priceMatch && bedMatch && postcodeMatch;
 
         });
 
@@ -68,12 +61,20 @@ const SearchForm = ({onSearch}) => {
 
                 <div>
                     <label className="field-label">Min Price</label>
-                    <NumberPicker value={minPrice} onChange={val => setMinPrice(val)} />
+                    <NumberPicker 
+                    min={50000}
+                    step={50000}
+                    value={minPrice} 
+                    onChange={val => setMinPrice(val)} />
                 </div>
 
                 <div>
                     <label className="field-label">Max Price</label>
-                    <NumberPicker value={maxPrice} onChange={val => setMaxPrice(val)} />
+                    <NumberPicker 
+                    min={minPrice || 50000}
+                    step={50000}
+                    value={maxPrice} 
+                    onChange={val => setMaxPrice(val)} />
                 </div>
 
             </div>
@@ -82,26 +83,27 @@ const SearchForm = ({onSearch}) => {
         
                 <div>
                     <label className="field-label">Min Bedrooms</label>
-                    <NumberPicker value={minBed} onChange={val => setMinBed(val)} />
+                    <NumberPicker
+                    min={1}
+                    max={10}
+                    step={1} 
+                    value={minBed} 
+                    onChange={val => setMinBed(val)} />
                 </div>
         
                 <div>
                     <label className="field-label">Max Bedrooms</label>
-                    <NumberPicker value={maxBed} onChange={val => setMaxBed(val)} />
+                    <NumberPicker 
+                    min={minBed || 1}
+                    max={10}
+                    step={1}
+                    value={maxBed} 
+                    onChange={val => setMaxBed(val)} />
                 </div>
 
             </div>
 
-            <div className="vertical-field">
-
-                <label className="Form-label">Added After Date</label>
-                <DatePicker
-                    value={date}
-                    onChange={val=> setDate(val)}
-                />
-
-            </div>
-
+            
             <div className="vertical-field">
 
                 <label className="Form-label">Postcode Area</label>

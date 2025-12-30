@@ -16,11 +16,7 @@
             "floorplan": "images/floorplan1.jpg",
             "map": "https://www.google.com/maps/place/Petts+Wood+Rd,+Petts+Wood,+Orpington,+UK/@51.3906419,0.0820849,517m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47d8ab82cc8f3cb1:0xc746da03b0c6c716!8m2!3d51.3906419!4d0.0820849!16s%2Fg%2F1v3kgs3w?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D",
 			"url":"properties/prop1.html",
-            "added": {
-                "month":"October",
-                "day":12,
-                "year":2022
-            }
+            "added": "2024-12-30"
         },
 		{
             "id":"prop2",
@@ -38,11 +34,7 @@
             "floorplan": "images/floorplan2.jpg",
             "map": "https://www.google.com/maps/place/Crofton+Rd,+Orpington,+UK/@51.3734081,0.0693927,518m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47d8ab6ac2bdc8d1:0xb0dde3c09939f924!8m2!3d51.3734048!4d0.0719676!16s%2Fg%2F1vnrk8k5?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D",
 			"url":"properties/prop2.html",
-            "added": {
-                "month":"September",
-                "day":14,
-                "year":2022
-            }
+            "added": "2022-11-30"
         },
         {
             "id": "prop3",
@@ -60,11 +52,7 @@
             "floorplan": "images/floorplan3.jpg",
             "map": "https://www.google.com/maps/place/199+The,+London+SW7+1RH,+UK/data=!4m2!3m1!1s0x487605388f582ad7:0xe7b7e305bf04f48f?sa=X&ved=1t:242&ictx=111",
             "url":"properties/prop3.html",
-            "added": {
-                "day": 7,
-                "month": "August",
-                "year": 2025
-            }
+            "added": "2025-08-30"
         },
         {
             "id": "prop4",
@@ -82,11 +70,8 @@
             "floorplan": "images/floorplan4.jpg",
             "map": "https://www.google.com/maps/place/Holland+Park+Gate/@51.498732,-0.1990737,516m/data=!3m2!1e3!4b1!4m6!3m5!1s0x48760feaa6c04f45:0xed04016944ed1813!8m2!3d51.498732!4d-0.1990737!16s%2Fg%2F11vqtyg8bl?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D",
             "url":"properties/prop4.html",
-            "added": {
-                "day": 20,
-                "month": "August",
-                "year": 2024
-            }
+            "added": "2025-08-07"
+            
         },
         {
             "id": "prop5",
@@ -104,11 +89,7 @@
             "floorplan": "images/floorplan5.jpg",
             "map": "https://www.google.com/maps/place/Chelsea+Square,+London,+UK/@51.4889172,-0.1726954,516m/data=!3m2!1e3!4b1!4m6!3m5!1s0x48760568d59abb47:0xd3b455b84bfaf532!8m2!3d51.4889172!4d-0.1726954!16s%2Fg%2F1tmpj_cc?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D",
             "url":"properties/prop5.html",
-            "added": {
-                "day": 30,
-                "month": "August",
-                "year": 2025
-            }
+            "added":"2025-11-25"
         },
         {
             "id": "prop6",
@@ -126,11 +107,7 @@
             "floorplan": "images/floorplan6.jpg",
             "map": "https://www.google.com/maps/place/Battersea+Power+Station,+Kirtling+St,+Nine+Elms,+London+SW11+8BN,+UK/@51.4808591,-0.1405625,516m/data=!3m2!1e3!4b1!4m6!3m5!1s0x487604fd7f70ee4b:0x57ad61e16830303d!8m2!3d51.4808591!4d-0.1405625!16s%2Fm%2F01296519?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D",
             "url":"properties/prop6.html",
-            "added": {
-                "day": 1,
-                "month": "August",
-                "year": 2025
-            }
+            "added":"2024-12-30"
         },
         {
             "id": "prop7",
@@ -148,11 +125,7 @@
             "floorplan": "images/floorplan7.jpg",
             "map": "https://www.google.com/maps/place/Copse+Hill,+London,+UK/@51.4183886,-0.2365351,259m/data=!3m2!1e3!4b1!4m6!3m5!1s0x48760926e20698cf:0x1a29f2543bbacdcd!8m2!3d51.4185819!4d-0.236199!16s%2Fm%2F011smdvn?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D",
             "url":"properties/prop7.html",
-            "added": {
-                "day": 8,
-                "month": "August",
-                "year": 2025
-            }
+            "added": "2025-08-08"
         }
 
 ]}
