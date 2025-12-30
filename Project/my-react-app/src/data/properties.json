@@ -1,0 +1,158 @@
+{
+	"properties": [
+        {
+            "id":"prop1",
+			"type":"House",
+            "bedrooms":3,
+			"price":750000,
+			"tenure":"Freehold",
+			"description":"Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
+			"location":"Petts Wood Road, Petts Wood, Orpington BR5",
+            "postcode":"BR5",
+			"images": [
+            "images/prop1-1.jpg", "images/prop1-2.jpg", "images/prop1-3.jpg",
+            "images/prop1-4.jpg", "images/prop1-5.jpg", "images/prop1-6.jpg"
+            ],
+            "floorplan": "images/floorplan1.jpg",
+            "map": "https://www.google.com/maps/place/Petts+Wood+Rd,+Petts+Wood,+Orpington,+UK/@51.3906419,0.0820849,517m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47d8ab82cc8f3cb1:0xc746da03b0c6c716!8m2!3d51.3906419!4d0.0820849!16s%2Fg%2F1v3kgs3w?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D",
+			"url":"properties/prop1.html",
+            "added": {
+                "month":"October",
+                "day":12,
+                "year":2022
+            }
+        },
+		{
+            "id":"prop2",
+			"type":"Flat",
+            "bedrooms":2,
+			"price":399995,
+			"tenure":"Freehold",
+			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
+			"location":"Crofton Road Orpington BR6",
+            "postcode":"BR6",
+            "images": [
+            "images/prop2-1.jpg", "images/prop2-2.jpg", "images/prop2-3.jpg",
+            "images/prop2-4.jpg", "images/prop2-5.jpg", "images/prop2-6.jpg"
+            ],
+            "floorplan": "images/floorplan2.jpg",
+            "map": "https://www.google.com/maps/place/Crofton+Rd,+Orpington,+UK/@51.3734081,0.0693927,518m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47d8ab6ac2bdc8d1:0xb0dde3c09939f924!8m2!3d51.3734048!4d0.0719676!16s%2Fg%2F1vnrk8k5?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D",
+			"url":"properties/prop2.html",
+            "added": {
+                "month":"September",
+                "day":14,
+                "year":2022
+            }
+        },
+        {
+            "id": "prop3",
+            "type": "House",
+            "bedrooms": 5,
+            "price": 2000000,
+            "tenure": "Freehold",
+            "description": "A once in a lifetime opportunity to own one of the most extraordinary properties in London. A Penthouse measuring approximately 9,500 sq.ft. with panoramic views across London. Featuring a private terrace with its own swimming pool. Situated within The Knightsbridge Apartments. London’s most exclusive development, offering the epitome of luxury living with first class security and leisure facilities.",
+            "location": "The Knightsbridge Apartments, 199 Knightsbridge, London, SW7",
+            "postcode": "SW7 1RH",
+            "images": [
+            "images/prop3-1.jpg", "images/prop3-2.jpg", "images/prop3-3.jpg",
+            "images/prop3-4.jpg", "images/prop3-5.jpg", "images/prop3-6.jpg"
+            ],
+            "floorplan": "images/floorplan3.jpg",
+            "map": "https://www.google.com/maps/place/199+The,+London+SW7+1RH,+UK/data=!4m2!3m1!1s0x487605388f582ad7:0xe7b7e305bf04f48f?sa=X&ved=1t:242&ictx=111",
+            "url":"properties/prop3.html",
+            "added": {
+                "day": 7,
+                "month": "August",
+                "year": 2025
+            }
+        },
+        {
+            "id": "prop4",
+            "type": "House",
+            "bedrooms": 4,
+            "price": 1020000,
+            "tenure": "Freehold",
+            "description": "The Penthouse at Holland Park Gate offers refined family living in the heart of Kensington. Spanning the sixth and seventh floors and over 5,500 sq ft, it boasts breathtaking views of Holland Park, a private landscaped courtyard, and floor-to-ceiling windows that seamlessly connect indoor and outdoor spaces.Designed with Lodha’s signature craftsmanship, the penthouse features an exceptional 2,033 sq ft terrace, perfect for entertaining, relaxation, or wellness. More than a home, it is a sanctuary of elegance, space, and serenity in one of London’s most prestigious addresses.",
+            "location": "Holland Park Gate, 261 Kensington High Street, London",
+            "postcode": "W8 6NA",
+            "images": [
+            "images/prop4-1.jpg", "images/prop4-2.jpg", "images/prop4-3.jpg",
+            "images/prop4-4.jpg", "images/prop4-5.jpg", "images/prop4-6.jpg"
+            ],
+            "floorplan": "images/floorplan4.jpg",
+            "map": "https://www.google.com/maps/place/Holland+Park+Gate/@51.498732,-0.1990737,516m/data=!3m2!1e3!4b1!4m6!3m5!1s0x48760feaa6c04f45:0xed04016944ed1813!8m2!3d51.498732!4d-0.1990737!16s%2Fg%2F11vqtyg8bl?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D",
+            "url":"properties/prop4.html",
+            "added": {
+                "day": 20,
+                "month": "August",
+                "year": 2024
+            }
+        },
+        {
+            "id": "prop5",
+            "type": "House",
+            "bedrooms": 5,
+            "price": 19950000,
+            "tenure": "Freehold",
+            "description": "A wide and elegant family home with a lift, classical interiors, and a rare separate mews house, set on one of Chelsea’s most prestigious garden squares. The main house offers generous living and entertaining spaces, including a grand drawing room overlooking the communal gardens, a formal dining room, spacious kitchen, multiple ensuite bedrooms, and a roof terrace.South-facing gardens open directly onto Chelsea Square, complemented by a balcony and terrace with garden views. The separate mews house provides self-contained guest or staff accommodation with off-street parking. Beautifully presented and rich in period character, this exceptional property combines space, privacy, and historic charm in a prime Chelsea location.",
+            "location": "Chelsea Square, Chelsea, London",
+            "postcode": "SW3",
+            "images": [
+            "images/prop5-1.jpg", "images/prop5-2.jpg", "images/prop5-3.jpg",
+            "images/prop5-4.jpg", "images/prop5-5.jpg", "images/prop5-6.jpg"
+            ],
+            "floorplan": "images/floorplan5.jpg",
+            "map": "https://www.google.com/maps/place/Chelsea+Square,+London,+UK/@51.4889172,-0.1726954,516m/data=!3m2!1e3!4b1!4m6!3m5!1s0x48760568d59abb47:0xd3b455b84bfaf532!8m2!3d51.4889172!4d-0.1726954!16s%2Fg%2F1tmpj_cc?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D",
+            "url":"properties/prop5.html",
+            "added": {
+                "day": 30,
+                "month": "August",
+                "year": 2025
+            }
+        },
+        {
+            "id": "prop6",
+            "type": "Flat",
+            "bedrooms": 3,
+            "price": 7950000,
+            "tenure": "Freehold",
+            "description": "This 3 double bedroom, three and a half bathroom duplex penthouse apartment in the iconic Battersea Power Station is one of just a selected few. It boasts a private garden, and a private roof terrace. Access to the Power Stations 24 hours concierge & security, two secure underground parking spaces and wide variety of facilities including shops, Battersea Park and excellent transport links.The property itself spans a total internal area of 2,841 sq ft over two floors, and boasts far reaching views over the River Thames and the stunning London skyline with an east to west orientation allowing for an abundance of natural light via the floor to ceiling windows. The kitchen/second reception has direct access to the outside space and the properties kitchen and cabinetry is all bespoke.",
+            "location": "Battersea Power Station, Kirtling Street, London",
+            "postcode": "SW11",
+            "images": [
+            "images/prop6-1.jpg", "images/prop6-2.jpg", "images/prop6-3.jpg",
+            "images/prop6-4.jpg", "images/prop6-5.jpg", "images/prop6-6.jpg"
+            ],
+            "floorplan": "images/floorplan6.jpg",
+            "map": "https://www.google.com/maps/place/Battersea+Power+Station,+Kirtling+St,+Nine+Elms,+London+SW11+8BN,+UK/@51.4808591,-0.1405625,516m/data=!3m2!1e3!4b1!4m6!3m5!1s0x487604fd7f70ee4b:0x57ad61e16830303d!8m2!3d51.4808591!4d-0.1405625!16s%2Fm%2F01296519?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D",
+            "url":"properties/prop6.html",
+            "added": {
+                "day": 1,
+                "month": "August",
+                "year": 2025
+            }
+        },
+        {
+            "id": "prop7",
+            "type": "House",
+            "bedrooms": 5,
+            "price": 5950000,
+            "tenure": "Freehold",
+            "description": "Nestled in the desirable Copse Hill area of Wimbledon, this stunning detached house combines modern living with spacious comfort. Built in 2017 and fully refurbished in 2024, it spans 3,992 sq ft and features five en-suite bedrooms, two elegant reception rooms, and a contemporary kitchen flowing seamlessly into the living spaces and garden.A self-contained annexe provides additional flexibility, while the landscaped garden includes a heated 10.5m outdoor swimming pool, terrace, and BBQ area. Gated off-street parking with an electric car charger, video security entry, and a Sonos system complete this luxurious, light-filled home.",
+            "location": "Copse Hill, London",
+            "postcode": "SW20",
+            "images": [
+            "images/prop7-1.jpg", "images/prop7-2.jpg", "images/prop7-3.jpg",
+            "images/prop7-4.jpg", "images/prop7-5.jpg", "images/prop7-6.jpg"
+            ],
+            "floorplan": "images/floorplan7.jpg",
+            "map": "https://www.google.com/maps/place/Copse+Hill,+London,+UK/@51.4183886,-0.2365351,259m/data=!3m2!1e3!4b1!4m6!3m5!1s0x48760926e20698cf:0x1a29f2543bbacdcd!8m2!3d51.4185819!4d-0.236199!16s%2Fm%2F011smdvn?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D",
+            "url":"properties/prop7.html",
+            "added": {
+                "day": 8,
+                "month": "August",
+                "year": 2025
+            }
+        }
+
+]}
