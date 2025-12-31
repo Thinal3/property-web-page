@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 import { DropdownList, NumberPicker, Combobox } from "react-widgets";
-import './Form.css';
+import '../style/Form.css';
 import "react-widgets/styles.css";
 
 import data from './properties.json';

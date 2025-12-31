@@ -1,5 +1,5 @@
 import React,{ useState } from "react";
-import "./nav.css";
+import "../style/nav.css";
 
 const NavBar=()=>{
 

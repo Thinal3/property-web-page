@@ -2,6 +2,7 @@ import React, { useState } from 'react'; // Added React and useState
 import SearchForm from './components/Form'; // Path to your Form.js
 import NavBar from './components/nav';
 import Footer from './components/Footer';
+import Hero from './components/hero';
 import "./app.css";
 
 
@@ -17,6 +18,7 @@ function App() {
     <div className="App">
       
       <NavBar/>
+      <Hero/>
 
       <div  className='content'>{/* This is your Test Component */}
       <SearchForm onSearch={handleSearch} />
