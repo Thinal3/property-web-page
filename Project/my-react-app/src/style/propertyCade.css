@@ -1,0 +1,132 @@
+
+.property-sec {
+    display: flex;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 24px;
+    height: 250px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+}
+
+.property-sec:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+    border-color: #000;
+}
+
+/* Image Styling */
+.img-wrapper {
+    flex: 1; 
+    position: relative;
+    max-width: 300px;
+}
+
+.property-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tenure-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #000;
+    color: #fff;
+    padding: 4px 10px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.card-text {
+    flex: 2; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+}
+
+.property-loc {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: 700;
+}
+
+.property-price {
+    font-size: 1.5rem;
+    color: #000;
+    margin: 4px 0;
+}
+
+.property-price::before {
+    content: "£"; 
+}
+
+.property-type {
+    font-size: 0.85rem;
+    color: #666;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+
+.card-specs {
+    margin-top: 15px;
+    display: flex;
+    gap: 20px;
+    font-size: 0.9rem;
+    color: #444;
+}
+
+.card-specs span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.loc-icon {
+    color: #000;
+}
+
+
+.fav-btn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    padding: 8px;
+    z-index: 10; 
+}
+
+.fav-btn:hover {
+    transform: scale(1.2);
+}
+
+.heart-filled {
+    color: #120303; 
+}
+
+
+@media (max-width: 768px) {
+    .property-sec {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .img-wrapper {
+        max-width: 100%;
+        height: 200px;
+    }
+}
