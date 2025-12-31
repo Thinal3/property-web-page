@@ -1,0 +1,184 @@
+@import url('https://fonts.cdnfonts.com/css/atteron-personal-use');
+
+.hero-sec {
+    width: 100%;
+    height: calc(100vh - 80px); 
+    background-color: #ededed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-bottom: 40px solid #1a1a1a;
+}
+
+.hero-inner {
+    width: 90%;
+    max-width: 1200px; 
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.text-area {
+    margin-left: 50px;
+    flex: 1.1;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0; 
+}
+
+.upper-title {
+    font-family: 'Atteron Personal Use', sans-serif;
+    font-size: 2rem; 
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+}
+
+.Hero-title {
+    font-family: 'Atteron Personal Use', sans-serif;
+    font-size: clamp(4rem, 12vw, 9rem); 
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 0.8;
+    margin: 0;
+    color: #1a1a1a;
+    letter-spacing: 10px;
+    width: 140%; 
+    position: relative;
+}
+
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 380px;
+    margin-top: 50px;
+}
+
+.horizontal-bar {
+    width: 55px;
+    height: 6px;
+    background-color: #000;
+}
+
+.description p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+
+.hero-img-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 1;
+}
+
+
+.hero-img {
+    width: 100%;
+    max-width: 500px;
+    height: 65vh; 
+    object-fit: cover; 
+    object-position: bottom; 
+    box-shadow: 8px 4px 10px #e0e0e0; 
+    display: block;
+}
+
+
+/* Social Links  */
+.social-links ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
+}
+
+.social-links svg {
+    width: 22px;
+    height: 22px;
+    fill: #1a1a1a;
+    transition: transform 0.3s ease;
+}
+
+.social-links a:hover svg {
+    transform: translateY(-3px);
+    fill: #666;
+}
+
+.decorative-sun {
+    position: absolute;
+    top: -35px;
+    right: 5px;
+    width: 80px;
+    height: 80px;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='black' stroke-width='4'%3E%3Ccircle cx='50' cy='50' r='3' fill='black'/%3E%3Cline x1='50' y1='50' x2='50' y2='0' /%3E%3Cline x1='50' y1='50' x2='50' y2='100' /%3E%3Cline x1='50' y1='50' x2='0' y2='50' /%3E%3Cline x1='50' y1='50' x2='100' y2='50' /%3E%3Cline x1='50' y1='50' x2='15' y2='15' /%3E%3Cline x1='50' y1='50' x2='85' y2='85' /%3E%3Cline x1='50' y1='50' x2='15' y2='85' /%3E%3Cline x1='50' y1='50' x2='85' y2='15' /%3E%3Cline x1='50' y1='50' x2='30' y2='5' /%3E%3Cline x1='50' y1='50' x2='70' y2='95' /%3E%3Cline x1='50' y1='50' x2='5' y2='30' /%3E%3Cline x1='50' y1='50' x2='95' y2='70' /%3E%3Cline x1='50' y1='50' x2='70' y2='5' /%3E%3Cline x1='50' y1='50' x2='30' y2='95' /%3E%3Cline x1='50' y1='50' x2='95' y2='30' /%3E%3Cline x1='50' y1='50' x2='5' y2='70' /%3E%3C/g%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    z-index: 3;
+}
+
+
+@media screen and (max-width: 900px) {
+    .hero-sec {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+                      url("https://images.unsplash.com/photo-1763370710715-120b6ce03cf1?auto=format&fit=crop&q=80&w=1200");
+        background-size: cover;
+        background-position: center;
+        height: calc(100vh - 80px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-img-container {
+        display: none; 
+    }
+
+    .hero-inner {
+        width: 90%;
+        max-width: 100%;
+        display: block; /* Stack text items vertically */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text-area {
+        width: 80%;
+        background: rgba(255, 255, 255, 0.85); 
+        backdrop-filter: blur(8px);
+        padding: 40px 20px;
+        border-radius: 12px; 
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+        max-width: 400px;
+        text-align: center;
+    }
+
+    .Hero-title {
+        font-family: 'Atteron Personal Use', sans-serif;
+        font-size: 3.8rem; /* Scaled for mobile functionality */
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        letter-spacing: -1px;
+        color: #1a1a1a;
+    }
+
+    .upper-title {
+        font-size: 1.1rem;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .description {
+        align-items: center;
+        text-align: center;
+        margin: 20px auto 0;
+    }
+}
