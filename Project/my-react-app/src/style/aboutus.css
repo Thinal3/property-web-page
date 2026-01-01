@@ -1,0 +1,117 @@
+
+
+.about-container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+
+}
+
+
+/* Mission Section */
+.mission-section {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 0 20px;
+    margin-bottom: 80px;
+}
+
+.mission-content { flex: 1; }
+.mission-content h2 { font-size: 2.5rem; margin-bottom: 20px; }
+.mission-content p { font-size: 1.1rem; line-height: 1.8; color: #555; }
+
+.mission-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 3px;
+    box-shadow: 20px 20px 0px #f0f0f0;
+    overflow: hidden;
+}
+
+/* Values Grid */
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.value-card {
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid #eee;
+    transition: transform 0.3s ease;
+}
+
+.value-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.value-card .icon {
+    width: 50px;       
+    height: 50px;
+    margin: 0 auto 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.value-card .icon svg {
+    width: 100%;       
+    height: 100%;
+    color: #000000;    
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+
+.value-card:hover .icon svg {
+    transform: scale(1.1);
+    color: #444;       
+}
+
+.scroll-animate {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 0.9s ease-out;
+}
+
+.scroll-animate.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media screen and (max-width: 900px) {
+    .mission-section {
+        margin-top: 100px;
+        flex-direction: column;
+        text-align: center; 
+        padding: 0 30px;
+    }
+
+    .mission-image img {
+        display: none;
+    }
+
+    .mission-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .mission-content h2 {
+        text-align: center; 
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .mission-content p {
+        text-align: center;
+        max-width: 100%; 
+    }
+}
+
