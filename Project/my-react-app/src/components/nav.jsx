@@ -1,5 +1,6 @@
 import React,{ useState } from "react";
 import "../style/nav.css";
+import { NavHashLink } from "react-router-hash-link";
 
 const NavBar=()=>{
 
@@ -9,14 +10,14 @@ const NavBar=()=>{
             <div className="naw-container">
 
                 <div className="logo">
-                    <span>Freedom</span>
+                    <NavHashLink smooth to={"/"}><span>Freedom</span></NavHashLink>
                 </div>
 
                 <ul className="nav-links">
-                    <li><a href="#">Find property</a></li>
-                    <li><a href="#">Favorites</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><NavHashLink smooth to={"/#search-form-id"}>Find property</NavHashLink></li>
+                    <li><NavHashLink to={"/Favorites"}>Favorites</NavHashLink></li>
+                    <li><NavHashLink smooth to={"/#about-id"}>About us</NavHashLink></li>
+                    <li><NavHashLink smooth to={"/#contact-id"}>contact</NavHashLink></li>
                 </ul>
 
             </div>

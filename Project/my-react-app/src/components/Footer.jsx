@@ -1,5 +1,7 @@
 import React from "react";
 import "../style/footer.css";
+import { NavHashLink } from "react-router-hash-link";
+
 
 
 const Footer =() =>{
@@ -39,10 +41,10 @@ const Footer =() =>{
 
                 <div className="navigation-links">
                     <ul>
-                        <li><a href="#">Find property</a></li>
-                        <li><a href="#">Favorites</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><NavHashLink smooth to={"/#search-form-id"}>Find property</NavHashLink></li>
+                        <li><NavHashLink to={"/Favorites"}>Favorites</NavHashLink></li>
+                        <li><NavHashLink to={"/#about-id"}>About us</NavHashLink></li>
+                        <li><NavHashLink to={"/#contact-id"}>Contacts</NavHashLink></li>
                     </ul>
                 </div>
         </div>
