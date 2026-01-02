@@ -1,4 +1,4 @@
-/* Ensure the body and main app don't restrict the form's width */
+
 body, html {
     background-color: #ededed;
   margin: 0;
@@ -7,9 +7,31 @@ body, html {
   overflow-x: hidden; /* Prevents horizontal scrolling */
 }
 
-.App {
+.App .Home{
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center; /* Centers the form horizontally */
+}
+
+
+.home-favorites-section {
+    background-color: #fcfcfc;
+    padding: 60px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.home-favorites-section .favorites-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 10px 20px 20px;
+    scrollbar-width: thin;
+}
+
+/* Make sure the mini cards don't shrink */
+.home-favorites-section .FavProperty-sec {
+    min-width: 320px;
+    flex-shrink: 0;
 }
