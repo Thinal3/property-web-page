@@ -1,0 +1,70 @@
+.search-page-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    min-height: 80vh;
+}
+
+.results-header {
+    
+    background-image: linear-gradient(rgba(255, 255, 255, 0.362), rgba(255, 255, 255, 0.384)), 
+                      url("https://images.unsplash.com/photo-1658930051735-bc842c343e28?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    
+    background-size: cover;      
+    background-position: center;  
+    background-repeat: no-repeat;
+    padding: 60px 40px;          
+    margin-bottom: 40px;
+    text-align: left;
+    border-radius: 8px;
+        
+}
+
+.back-link {
+    background: none;
+    border: none;
+    color: #e7e7e7;
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding: 0;
+    margin-bottom: 15px;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+.results-header h1 {
+    font-size: 2.7rem;
+    margin: 5px 0;
+    color: #101010;
+}
+
+.results-header p {
+    color: #1b1b1b;
+    font-size: 1.1rem;
+    
+}
+
+.property-column {
+    display: flex;
+    flex-direction: column;
+    gap: 25px; 
+    
+}
+
+.empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    background: #fdfdfd;
+    border: 2px dashed #ddd;
+}
+
+.search-again-btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
