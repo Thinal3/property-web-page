@@ -3,11 +3,11 @@ import "../app.css";
 import Hero from "../components/hero";
 import SearchForm from "../components/Form";
 import Aboutus from "../components/Aboutus";
+import FavoritesPage from "../components/Favorite";
 
 
 
-
-const Home = () => {
+const Home = ({ favorites, onToggleFav}) => {
     return (
         <div className="home-wrapper">
         
@@ -16,6 +16,15 @@ const Home = () => {
             <section className="search-section" id="search-form-id">
                 <div className="container">
                     <SearchForm />
+                </div>
+            </section>
+
+            <section className="home-favorites-section" id="Favorites">
+                <div className="container">
+                    <FavoritesPage 
+                        favorites={favorites} 
+                        onToggleFav={onToggleFav} 
+                    />
                 </div>
             </section>
 
