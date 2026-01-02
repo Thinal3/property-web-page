@@ -3,13 +3,15 @@ import React, { useState } from "react";
 import { DropdownList, NumberPicker, Combobox } from "react-widgets";
 import '../style/Form.css';
 import "react-widgets/styles.css";
-
+import { useNavigate } from 'react-router-dom';
 import data from './properties.json';
 
 
 const SearchForm = ({onSearch}) => {
 
-    const [type,setType]= useState("Any");        //for type of property
+    const navigate = useNavigate();
+
+    const [type,setType]= useState("Any");    //for type of property
 
     const [minPrice,setMinPrice]= useState(); //for min price and max price of property
     const [maxPrice,setMaxPrice]= useState();
@@ -36,13 +38,22 @@ const SearchForm = ({onSearch}) => {
 
         });
 
-        onSearch(result);
+        
 
-    };
+        navigate('/search', { 
+            state: { 
+                results: result, 
+                criteria:{ type, minPrice, maxPrice, minBed, maxBed, postcode } 
+            } 
+        });
+
+        if(onSearch) onSearch(result);
+
+};
 
     return(
 
-         <div className="search-container">
+        <div className="search-container" id="search-form-id">
 
             <h2 className="title">Find Your Dream Property.</h2>
         
@@ -78,6 +89,7 @@ const SearchForm = ({onSearch}) => {
                 </div>
 
             </div>
+            
 
             <div className="range-row">
         
