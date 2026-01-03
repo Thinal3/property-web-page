@@ -4,6 +4,7 @@ import Hero from "../components/hero";
 import SearchForm from "../components/Form";
 import Aboutus from "../components/Aboutus";
 import FavoritesPage from "../components/Favorite";
+import Contact from "../components/contact";
 
 
 
@@ -31,6 +32,9 @@ const Home = ({ favorites, onToggleFav}) => {
             <section className="about-preview-section">
                 <Aboutus />
             </section>
+
+            <Contact/>
+            
         </div>
     );
 }
