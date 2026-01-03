@@ -65,6 +65,9 @@
     margin: 0;
 }
 
+.fav-property-price::before {
+    content: "£ "; 
+}
 
 .fav-property-price {
     font-size: 18px;

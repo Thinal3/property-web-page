@@ -42,9 +42,9 @@ const Footer =() =>{
                 <div className="navigation-links">
                     <ul>
                         <li><NavHashLink smooth to={"/#search-form-id"}>Find property</NavHashLink></li>
-                        <li><NavHashLink to={"/Favorites"}>Favorites</NavHashLink></li>
-                        <li><NavHashLink to={"/#about-id"}>About us</NavHashLink></li>
-                        <li><NavHashLink to={"/#contact-id"}>Contacts</NavHashLink></li>
+                        <li><NavHashLink smooth to={"/#Favorites"}>Favorites</NavHashLink></li>
+                        <li><NavHashLink smooth to={"/#about-id"}>About us</NavHashLink></li>
+                        <li><NavHashLink smooth to={"/#contact-id"}>Contacts</NavHashLink></li>
                     </ul>
                 </div>
         </div>
