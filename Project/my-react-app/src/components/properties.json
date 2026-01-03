@@ -14,7 +14,7 @@
             "images/prop1-4.jpg", "images/prop1-5.jpg", "images/prop1-6.jpg"
             ],
             "floorplan": "images/floorplan1.jpg",
-            "map": "https://www.google.com/maps/place/Petts+Wood+Rd,+Petts+Wood,+Orpington,+UK/@51.3906419,0.0820849,517m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47d8ab82cc8f3cb1:0xc746da03b0c6c716!8m2!3d51.3906419!4d0.0820849!16s%2Fg%2F1v3kgs3w?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2392.422544701001!2d0.08208490000000002!3d51.3906419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ab82cc8f3cb1%3A0xc746da03b0c6c716!2sPetts%20Wood%20Rd%2C%20Petts%20Wood%2C%20Orpington%2C%20UK!5e1!3m2!1sen!2slk!4v1767460176472!5m2!1sen!2slk",
 			"url":"properties/prop1.html",
             "added": "2024-12-30"
         },
@@ -24,7 +24,7 @@
             "bedrooms":2,
 			"price":399995,
 			"tenure":"Freehold",
-			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
+			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.",
 			"location":"Crofton Road Orpington BR6",
             "postcode":"BR6",
             "images": [
@@ -32,13 +32,13 @@
             "images/prop2-4.jpg", "images/prop2-5.jpg", "images/prop2-6.jpg"
             ],
             "floorplan": "images/floorplan2.jpg",
-            "map": "https://www.google.com/maps/place/Crofton+Rd,+Orpington,+UK/@51.3734081,0.0693927,518m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47d8ab6ac2bdc8d1:0xb0dde3c09939f924!8m2!3d51.3734048!4d0.0719676!16s%2Fg%2F1vnrk8k5?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2393.323745105048!2d0.0719676!3d51.373404799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ab6ac2bdc8d1%3A0xb0dde3c09939f924!2sCrofton%20Rd%2C%20Orpington%2C%20UK!5e1!3m2!1sen!2slk!4v1767460262195!5m2!1sen!2slk",
 			"url":"properties/prop2.html",
             "added": "2022-11-30"
         },
         {
             "id": "prop3",
-            "type": "House",
+            "type": "Flat",
             "bedrooms": 5,
             "price": 2000000,
             "tenure": "Freehold",
@@ -46,12 +46,11 @@
             "location": "The Knightsbridge Apartments, 199 Knightsbridge, London, SW7",
             "postcode": "SW7 1RH",
             "images": [
-            "images/prop3-1.jpg", "images/prop3-2.jpg", "images/prop3-3.jpg",
-            "images/prop3-4.jpg", "images/prop3-5.jpg", "images/prop3-6.jpg"
+            "https://media.rightmove.co.uk/227k/226316/151938803/226316_PLD240037_IMG_03_0000.jpeg", "https://media.rightmove.co.uk/227k/226316/151938803/226316_PLD240037_IMG_05_0000.jpeg", "https://media.rightmove.co.uk/227k/226316/151938803/226316_PLD240037_IMG_08_0000.jpeg",
+            "https://media.rightmove.co.uk/227k/226316/151938803/226316_PLD240037_IMG_10_0000.jpeg", "https://media.rightmove.co.uk/227k/226316/151938803/226316_PLD240037_IMG_02_0000.jpeg", "https://media.rightmove.co.uk/227k/226316/151938803/226316_PLD240037_IMG_00_0000.jpeg"
             ],
-            "floorplan": "images/floorplan3.jpg",
-            "map": "https://www.google.com/maps/place/199+The,+London+SW7+1RH,+UK/data=!4m2!3m1!1s0x487605388f582ad7:0xe7b7e305bf04f48f?sa=X&ved=1t:242&ictx=111",
-            "url":"properties/prop3.html",
+            "floorplan": "/floorplans/the_knightsbridge.png",
+            "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2386.629646114751!2d-0.16396149999999998!3d51.50134299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487605388f582ad7%3A0xe7b7e305bf04f48f!2s199%20The%2C%20London%20SW7%201RH%2C%20UK!5e1!3m2!1sen!2slk!4v1767460435890!5m2!1sen!2slk",
             "added": "2025-08-30"
         },
         {
@@ -68,7 +67,7 @@
             "images/prop4-4.jpg", "images/prop4-5.jpg", "images/prop4-6.jpg"
             ],
             "floorplan": "images/floorplan4.jpg",
-            "map": "https://www.google.com/maps/place/Holland+Park+Gate/@51.498732,-0.1990737,516m/data=!3m2!1e3!4b1!4m6!3m5!1s0x48760feaa6c04f45:0xed04016944ed1813!8m2!3d51.498732!4d-0.1990737!16s%2Fg%2F11vqtyg8bl?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2386.766380296966!2d-0.19907370000000002!3d51.498732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760feaa6c04f45%3A0xed04016944ed1813!2sHolland%20Park%20Gate!5e1!3m2!1sen!2slk!4v1767462289345!5m2!1sen!2slk",
             "url":"properties/prop4.html",
             "added": "2025-08-07"
             
@@ -87,7 +86,7 @@
             "images/prop5-4.jpg", "images/prop5-5.jpg", "images/prop5-6.jpg"
             ],
             "floorplan": "images/floorplan5.jpg",
-            "map": "https://www.google.com/maps/place/Chelsea+Square,+London,+UK/@51.4889172,-0.1726954,516m/data=!3m2!1e3!4b1!4m6!3m5!1s0x48760568d59abb47:0xd3b455b84bfaf532!8m2!3d51.4889172!4d-0.1726954!16s%2Fg%2F1tmpj_cc?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2387.2803224220083!2d-0.1726954!3d51.488917199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760568d59abb47%3A0xd3b455b84bfaf532!2sChelsea%20Square%2C%20London%2C%20UK!5e1!3m2!1sen!2slk!4v1767462348052!5m2!1sen!2slk",
             "url":"properties/prop5.html",
             "added":"2025-11-25"
         },
@@ -105,7 +104,7 @@
             "images/prop6-4.jpg", "images/prop6-5.jpg", "images/prop6-6.jpg"
             ],
             "floorplan": "images/floorplan6.jpg",
-            "map": "https://www.google.com/maps/place/Battersea+Power+Station,+Kirtling+St,+Nine+Elms,+London+SW11+8BN,+UK/@51.4808591,-0.1405625,516m/data=!3m2!1e3!4b1!4m6!3m5!1s0x487604fd7f70ee4b:0x57ad61e16830303d!8m2!3d51.4808591!4d-0.1405625!16s%2Fm%2F01296519?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2387.702224353274!2d-0.1405625!3d51.480859099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604fd7f70ee4b%3A0x57ad61e16830303d!2sBattersea%20Power%20Station%2C%20Kirtling%20St%2C%20Nine%20Elms%2C%20London%20SW11%208BN%2C%20UK!5e1!3m2!1sen!2slk!4v1767462390760!5m2!1sen!2slk",
             "url":"properties/prop6.html",
             "added":"2024-12-30"
         },
@@ -123,7 +122,7 @@
             "images/prop7-4.jpg", "images/prop7-5.jpg", "images/prop7-6.jpg"
             ],
             "floorplan": "images/floorplan7.jpg",
-            "map": "https://www.google.com/maps/place/Copse+Hill,+London,+UK/@51.4183886,-0.2365351,259m/data=!3m2!1e3!4b1!4m6!3m5!1s0x48760926e20698cf:0x1a29f2543bbacdcd!8m2!3d51.4185819!4d-0.236199!16s%2Fm%2F011smdvn?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D",
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1195.4857101544856!2d-0.23653514999999994!3d51.41838859999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760926e20698cf%3A0x1a29f2543bbacdcd!2sCopse%20Hill%2C%20London%2C%20UK!5e1!3m2!1sen!2slk!4v1767462436911!5m2!1sen!2slk",
             "url":"properties/prop7.html",
             "added": "2025-08-08"
         }
