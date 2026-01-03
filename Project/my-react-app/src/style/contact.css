@@ -1,0 +1,108 @@
+.contact {
+    width: 100%;
+    padding: 80px 0;
+    background: #ededed;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-wrapper {
+    width: 50%;
+    max-width: 900px;
+    text-align: center;
+}
+
+
+.contact-upper-title {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.contact-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.contact-para {
+    font-size: 14px;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+}
+
+
+.contact-socials {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    margin-bottom: 60px;
+}
+
+.contact-socials span {
+    width: 22px;
+    height: 22px;
+    fill: #1a1a1a;
+    transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contact-socials span:hover svg {
+    transform: translateY(-3px);
+    fill: #666;
+}
+
+/* FORM */
+.contact-form {
+    width: 100%;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-group label {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #000;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 3px solid #000;
+    padding: 8px 0;
+    font-size: 14px;
+    outline: none;
+    background: transparent;
+}
+
+
+.submit-btn {
+    margin-top: 20px;
+    padding: 12px 28px;
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    float: right;
+    font-size: 12px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.submit-btn:hover {
+    background: #333;
+}
