@@ -1,0 +1,181 @@
+
+.property-page {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.property-head {
+    margin-bottom: 25px;
+}
+
+.propertyPage-title {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.property-price {
+    font-size: 22px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.property-type {
+    color: #555;
+    font-size: 15px;
+}
+
+.property-main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.gallery-main {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.gallery-main img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Thumbnails */
+.thumbnail-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.thumbnail-grid img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.thumbnail-grid img:hover {
+    transform: scale(1.05);
+}
+
+.thumbnail-grid img.active {
+    border-color: #000;
+}
+
+.property-right {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.short-description h3 {
+    margin-bottom: 10px;
+}
+
+.card-specs {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.postcode-pill {
+    background: #eaeaea;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.short-description h5 {
+    margin-top: 10px;
+    color: #666;
+    font-weight: normal;
+}
+
+/* Contact button */
+.contact-agent {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.contact-agent:hover {
+    background: #333;
+}
+
+.property-tabs {
+    margin-top: 40px;
+}
+
+/* React Tabs Overrides */
+.react-tabs__tab-list {
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.react-tabs__tab {
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.react-tabs__tab--selected {
+    border-bottom: 3px solid #000;
+    font-weight: 600;
+}
+
+/* Description */
+.property-description {
+    line-height: 1.8;
+    text-align: justify;
+    font-size: 15px;
+    color: #444;
+    max-width: 800px;
+    height: auto;
+    overflow: visible;
+    white-space: normal;
+}
+
+/* Floor plan */
+.floorplan-tab {
+    display: flex;
+    justify-content: center;
+}
+
+.floorplan-full {
+    max-width: 100%;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+
+@media (max-width: 900px) {
+    .property-main {
+      grid-template-columns: 1fr;
+    }
+
+    .gallery-main img {
+      height: 300px;
+    }
+
+    .thumbnail-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+}
