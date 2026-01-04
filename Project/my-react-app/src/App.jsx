@@ -1,33 +1,58 @@
-import React, { useState } from 'react'; // Added React and useState
-import SearchForm from './components/Form'; // Path to your Form.js
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/nav';
 import Footer from './components/Footer';
-import Hero from './components/hero';
+import SearchPage from './pages/searchResult'; 
 import "./app.css";
-
-
+import Home from './pages/Home';
+import PropertyPage from './pages/PropertyPage';
 
 function App() {
-  // Define the function that the Form expects as a prop
-  const handleSearch = (results) => {
-    console.log("Search button clicked! Found:", results);
-    alert(`Search successful! Found ${results.length} properties. Check the console (F12) for data.`);
+  
+  const [favorites, setFavorites] = useState([]);
+
+  const toggleFavorite = (property) => {
+    setFavorites((prev) => {
+      const isExist = prev.find((item) => item.id === property.id);
+      if (isExist) {
+        return prev.filter((item) => item.id !== property.id); // Remove
+      }
+      return [...prev, property]; // Add
+    });
+
   };
 
   return (
-    <div className="App">
-      
-      <NavBar/>
-      <Hero/>
+    <Router>
+      <div className="App">
+        <NavBar /> 
+        
+        <Routes>
+          <Route path="/" element={
+            <>
+              <Home favorites={favorites}  onToggleFav={toggleFavorite}/>
+            </>
+          } />
 
-      <div  className='content'>{/* This is your Test Component */}
-      <SearchForm onSearch={handleSearch} />
+          
+          <Route 
+            path="/search" 
+            element={
+              <SearchPage favorites={favorites} onToggleFav={toggleFavorite} />
+            } 
+          />
+
+          <Route
+            path='/property/:id' element={<PropertyPage/>}
+          />
+          
+
+        </Routes>
+
+
+        <Footer />
       </div>
-      
-      <Footer/>
-      
-    </div>
+    </Router>
   );
 }
-
 export default App;
