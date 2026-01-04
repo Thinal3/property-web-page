@@ -59,7 +59,7 @@ const SearchForm = ({onSearch}) => {
         
             <div className="vertical-field">
 
-                <label className="Form-label">Property types</label>
+                <label htmlFor="property-type" className="Form-label">Property types</label>
                 <DropdownList
                     data={["Any","House","Flat"]}
                     value={type}
@@ -71,7 +71,7 @@ const SearchForm = ({onSearch}) => {
             <div className="range-row">
 
                 <div>
-                    <label className="field-label">Min Price</label>
+                    <label htmlFor="min-price" className="field-label">Min Price</label>
                     <NumberPicker 
                     min={50000}
                     step={50000}
@@ -80,7 +80,7 @@ const SearchForm = ({onSearch}) => {
                 </div>
 
                 <div>
-                    <label className="field-label">Max Price</label>
+                    <label htmlFor="max-price" className="field-label">Max Price</label>
                     <NumberPicker 
                     min={minPrice || 50000}
                     step={50000}
@@ -94,7 +94,7 @@ const SearchForm = ({onSearch}) => {
             <div className="range-row">
         
                 <div>
-                    <label className="field-label">Min Bedrooms</label>
+                    <label htmlFor="min-bedrooms" className="field-label">Min Bedrooms</label>
                     <NumberPicker
                     min={1}
                     max={10}
@@ -104,7 +104,7 @@ const SearchForm = ({onSearch}) => {
                 </div>
         
                 <div>
-                    <label className="field-label">Max Bedrooms</label>
+                    <label htmlFor="max-bedrooms" className="field-label">Max Bedrooms</label>
                     <NumberPicker 
                     min={minBed || 1}
                     max={10}
@@ -118,7 +118,7 @@ const SearchForm = ({onSearch}) => {
             
             <div className="vertical-field">
 
-                <label className="Form-label">Postcode Area</label>
+                <label htmlFor="postcode-area" className="Form-label">Postcode Area</label>
                 <Combobox
                 data={["SW7 1RH", "BR5", "BR6", "W8 6NA", "SW3","SW11","SW20"]} 
                 value={postcode} 
