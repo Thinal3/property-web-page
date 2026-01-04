@@ -3,7 +3,7 @@ import FavPropertyCard from "./FavPropertyCard";
 import "../style/favorits.css";
 
 
-const FavoritesPage = ({ favorites, onToggleFav }) => {
+const FavoritesPage = ({ favorites=[], onToggleFav }) => {
 
     return (
 
