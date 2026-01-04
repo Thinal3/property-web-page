@@ -10,10 +10,10 @@
 			"location":"Sutherland Avenue, Petts Wood, Orpington BR5",
             "postcode":"BR5",
 			"images": [
-            "/img-property/property1/prop1-1.jpeg", "/img-property/property1/prop1-2.jpeg", "/img-property/property1/prop1-3.jpeg",
-            "/img-property/property1/prop1-4.jpeg", "/img-property/property1/prop1-5.jpeg", "/img-property/property1/prop1-6.jpeg"
+            "img-property/property1/prop1-1.jpeg", "img-property/property1/prop1-2.jpeg", "img-property/property1/prop1-3.jpeg",
+            "img-property/property1/prop1-4.jpeg", "img-property/property1/prop1-5.jpeg", "img-property/property1/prop1-6.jpeg"
             ],
-            "floorplan": "/floorplans/sutherland_avenue.jpeg",
+            "floorplan": "floorplans/sutherland_avenue.jpeg",
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2392.422544701001!2d0.08208490000000002!3d51.3906419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ab82cc8f3cb1%3A0xc746da03b0c6c716!2sPetts%20Wood%20Rd%2C%20Petts%20Wood%2C%20Orpington%2C%20UK!5e1!3m2!1sen!2slk!4v1767460176472!5m2!1sen!2slk",
             "added": "2024-12-30"
         },
@@ -27,8 +27,8 @@
 			"location":"Crofton Road Orpington BR6",
             "postcode":"BR6",
             "images": [
-            "/img-property/property2/prop2-1.jpeg", "/img-property/property2/prop2-2.jpeg", "/img-property/property2/prop2-3.jpeg",
-            "/img-property/property2/prop2-4.jpeg", "/img-property/property2/prop2-5.jpeg", "/img-property/property2/prop2-6.jpeg"
+            "img-property/property2/prop2-1.jpeg", "img-property/property2/prop2-2.jpeg", "img-property/property2/prop2-3.jpeg",
+            "img-property/property2/prop2-4.jpeg", "img-property/property2/prop2-5.jpeg", "img-property/property2/prop2-6.jpeg"
             ],
             "floorplan": "/floorplans/prop2.jpeg",
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2393.323745105048!2d0.0719676!3d51.373404799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ab6ac2bdc8d1%3A0xb0dde3c09939f924!2sCrofton%20Rd%2C%20Orpington%2C%20UK!5e1!3m2!1sen!2slk!4v1767460262195!5m2!1sen!2slk",
@@ -44,10 +44,10 @@
             "location": "The Knightsbridge Apartments, 199 Knightsbridge, London, SW7",
             "postcode": "SW7 1RH",
             "images": [
-            "/img-property/property3/prop3-1.jpeg", "/img-property/property3/prop3-2.jpeg", "/img-property/property3/prop3-3.jpeg",
-            "/img-property/property3/prop3-4.jpeg", "/img-property/property3/prop3-5.jpeg", "/img-property/property3/prop3-6.jpeg"
+            "img-property/property3/prop3-1.jpeg", "img-property/property3/prop3-2.jpeg", "img-property/property3/prop3-3.jpeg",
+            "img-property/property3/prop3-4.jpeg", "img-property/property3/prop3-5.jpeg", "img-property/property3/prop3-6.jpeg"
             ],
-            "floorplan": "/floorplans/the_knightsbridge.jpeg",
+            "floorplan": "floorplans/the_knightsbridge.jpeg",
             "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2386.629646114751!2d-0.16396149999999998!3d51.50134299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487605388f582ad7%3A0xe7b7e305bf04f48f!2s199%20The%2C%20London%20SW7%201RH%2C%20UK!5e1!3m2!1sen!2slk!4v1767460435890!5m2!1sen!2slk",
             "added": "2025-08-30"
         },
@@ -61,10 +61,10 @@
             "location": "Holland Park Gate, 261 Kensington High Street, London",
             "postcode": "W8 6NA",
             "images": [
-            "/img-property/property4/prop4-1.jpeg", "/img-property/property4/prop4-2.jpeg", "/img-property/property4/prop4-3.jpeg",
-            "/img-property/property4/prop4-4.jpeg", "/img-property/property4/prop4-5.jpeg", "/img-property/property4/prop4-6.jpeg"
+            "img-property/property4/prop4-1.jpeg", "img-property/property4/prop4-2.jpeg", "img-property/property4/prop4-3.jpeg",
+            "img-property/property4/prop4-4.jpeg", "img-property/property4/prop4-5.jpeg", "img-property/property4/prop4-6.jpeg"
             ],
-            "floorplan": "/floorplans/the_holland_park.png",
+            "floorplan": "floorplans/the_holland_park.png",
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2386.766380296966!2d-0.19907370000000002!3d51.498732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760feaa6c04f45%3A0xed04016944ed1813!2sHolland%20Park%20Gate!5e1!3m2!1sen!2slk!4v1767462289345!5m2!1sen!2slk",
             "added": "2025-08-07"
             
@@ -79,10 +79,10 @@
             "location": "Chelsea Square, Chelsea, London",
             "postcode": "SW3",
             "images": [
-            "/img-property/property5/prop5-1.jpeg", "/img-property/property5/prop5-2.jpeg", "/img-property/property5/prop5-3.jpeg",
-            "/img-property/property5/prop5-4.jpeg", "/img-property/property5/prop5-5.jpeg", "/img-property/property5/prop5-6.jpeg"
+            "img-property/property5/prop5-1.jpeg", "img-property/property5/prop5-2.jpeg", "img-property/property5/prop5-3.jpeg",
+            "img-property/property5/prop5-4.jpeg", "img-property/property5/prop5-5.jpeg", "img-property/property5/prop5-6.jpeg"
             ],
-            "floorplan": "/floorplans/chelsae_square.jpeg",
+            "floorplan": "floorplans/chelsae_square.jpeg",
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2387.2803224220083!2d-0.1726954!3d51.488917199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760568d59abb47%3A0xd3b455b84bfaf532!2sChelsea%20Square%2C%20London%2C%20UK!5e1!3m2!1sen!2slk!4v1767462348052!5m2!1sen!2slk",
             "added":"2025-11-25"
         },
@@ -96,10 +96,10 @@
             "location": "The Bridge, Queenstown Road, Battersea, South West London",
             "postcode": "SW11",
             "images": [
-            "/img-property/property6/prop6-1.jpeg", "/img-property/property6/prop6-2.jpeg", "/img-property/property6/prop6-3.jpeg",
-            "/img-property/property6/prop6-4.jpeg", "/img-property/property6/prop6-5.jpeg", "/img-property/property6/prop6-6.jpeg"
+            "img-property/property6/prop6-1.jpeg", "img-property/property6/prop6-2.jpeg", "img-property/property6/prop6-3.jpeg",
+            "img-property/property6/prop6-4.jpeg", "img-property/property6/prop6-5.jpeg", "img-property/property6/prop6-6.jpeg"
             ],
-            "floorplan": "/floorplans/the_bridge.jpeg",
+            "floorplan": "floorplans/the_bridge.jpeg",
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d746.8801912674014!2d-0.14880407103095236!3d51.47906803655392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487605c19d59cd87%3A0xd4e9610dc9de9c55!2sThe%20Bridge%20Apartments!5e1!3m2!1sen!2slk!4v1767502847814!5m2!1sen!2slk",
             "added":"2024-12-30"
         },
@@ -113,10 +113,10 @@
             "location": "Copse Hill, London",
             "postcode": "SW20",
             "images": [
-            "/img-property/property7/prop7-1.jpeg", "/img-property/property7/prop7-2.jpeg", "/img-property/property7/prop7-3.jpeg",
-            "/img-property/property7/prop7-4.jpeg", "/img-property/property7/prop7-5.jpeg", "/img-property/property7/prop7-6.jpeg"
+            "img-property/property7/prop7-1.jpeg", "img-property/property7/prop7-2.jpeg", "img-property/property7/prop7-3.jpeg",
+            "img-property/property7/prop7-4.jpeg", "img-property/property7/prop7-5.jpeg", "img-property/property7/prop7-6.jpeg"
             ],
-            "floorplan": "/floorplans/copse_hill.jpeg",
+            "floorplan": "floorplans/copse_hill.jpeg",
             "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1195.4857101544856!2d-0.23653514999999994!3d51.41838859999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760926e20698cf%3A0x1a29f2543bbacdcd!2sCopse%20Hill%2C%20London%2C%20UK!5e1!3m2!1sen!2slk!4v1767462436911!5m2!1sen!2slk",
             "added": "2025-08-08"
         }
